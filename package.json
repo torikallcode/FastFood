@@ -1,0 +1,19 @@
+{
+  "name": "market-place",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "feather-icons": "^4.29.1",
+    "tailwindcss": "^3.3.6"
+  },
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.10"
+  }
+}
