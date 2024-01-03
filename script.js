@@ -95,18 +95,15 @@ document.addEventListener("click", e =>  {
     if(!selectBtn.contains(e.target) && !optionHehe.contains(e.target)){
         optionHehe.classList.add("hidden")
         arrow.classList.remove("rotate-45")
-        e.preventDefault()
     }
     if(!navB.contains(e.target) && !navMenu.contains(e.target)){
         navMenu.classList.add("-right-[100%]")
         navMenu.classList.remove("right-0")
         hamburger.classList.remove("hamburger-active")
-        e.preventDefault()
     } 
     if(!cartBtn.contains(e.target) && !navCart.contains(e.target)){
         navCart.classList.add("-right-[100%]")
         navCart.classList.remove("right-0")
-        e.preventDefault()
     } 
 })
 

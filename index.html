@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,7 +65,7 @@
                                 <a href="#" class="cursor-pointer text-lg font-utama sm:text-lg lg:text-lg font-semibold flex gap-10 justify-center text-hitam-0 py-2 mx-8">home</a>
                                 <a href="#menu" class="text-lg font-utama sm:text-lg lg:text-lg font-semibold flex gap-10 justify-center text-hitam-0 py-2 mx-8">menu</a>
                                 <a href="#kontak" class="text-lg font-utama sm:text-lg lg:text-lg font-semibold flex gap-10 justify-center text-hitam-0 py-2 mx-8">kontak</a>
-                                <a href="#tentang" x-on:click.prevent="$scroll('#about')" class=" text-lg font-utama sm:text-lg lg:text-lg font-semibold flex gap-10 justify-center text-hitam-0 py-2 mx-8">tentang</a>
+                                <a href="#tentang"  class=" text-lg font-utama sm:text-lg lg:text-lg font-semibold flex gap-10 justify-center text-hitam-0 py-2 mx-8">tentang</a>
                         </ul>
                     </nav>
                 </div>
@@ -187,12 +187,12 @@
         </div>
     </section>
     <!-- Marquee -->
-    <div class="flex justify-start gap-2 overflow-hidden py-3 bg-transparent border-y border-hitam-0 mb-16" id="marquee">
+    <div id="tentang" class="flex justify-start gap-2 overflow-hidden py-3 bg-transparent border-y border-hitam-0 mb-16" id="marquee">
         <h4 class="uppercase text-2xl tracking-wide whitespace-nowrap text-hitam-0 font-utama "> — Selamat Menikmati! — Selamat Menikmati! — Selamat Menikmati! — Selamat Menikmati! — Selamat Menikmati!</h4>
         <h4 class="uppercase text-2xl tracking-wide whitespace-nowrap text-hitam-0 font-utama "> — Selamat Menikmati! — Selamat Menikmati! — Selamat Menikmati! — Selamat Menikmati! — Selamat Menikmati!</h4>
     </div>
     <!-- About section -->
-    <section id="tentang" class="about w-full flex flex-col justify-center items-center pb-10 pt-10 px-5 sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-5xl mx-auto mb-16">
+    <section  class="about w-full flex flex-col justify-center items-center pb-10 pt-10 px-5 sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-5xl mx-auto mb-16">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10 overflow-hidden rounded-lg">
             <div class="h-72 aspect-[3/2] w-full">
                 <div class="bg-center bg-cover w-full h-full" style="background-image: url(img/about.jpg);"></div>
